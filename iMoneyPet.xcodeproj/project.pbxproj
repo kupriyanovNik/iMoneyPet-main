@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420E907629B2906D00FE9F49 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E907029B2906D00FE9F49 /* Helpers.swift */; };
+		420E907729B2906D00FE9F49 /* ViewWithTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E907129B2906D00FE9F49 /* ViewWithTabBar.swift */; };
+		420E907829B2906D00FE9F49 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E907229B2906D00FE9F49 /* BarChartView.swift */; };
+		420E907929B2906D00FE9F49 /* BarChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E907329B2906D00FE9F49 /* BarChartRow.swift */; };
+		420E907A29B2906D00FE9F49 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E907429B2906D00FE9F49 /* LabelView.swift */; };
+		420E907B29B2906D00FE9F49 /* BarChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E907529B2906D00FE9F49 /* BarChartCell.swift */; };
+		4247E3CF297342A70072F304 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4247E3CE297342A70072F304 /* Detail.swift */; };
+		4247E3D1297342CF0072F304 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4247E3D0297342CF0072F304 /* MainView.swift */; };
+		4247E3D5297347FF0072F304 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4247E3D7297347FF0072F304 /* Localizable.strings */; };
+		4281AE37297D49CF00C65A1B /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281AE36297D49CF00C65A1B /* TodayView.swift */; };
+		4281AE39297D4A7900C65A1B /* SpendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281AE38297D4A7900C65A1B /* SpendCell.swift */; };
+		4281AE3B297D52BE00C65A1B /* TodayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281AE3A297D52BE00C65A1B /* TodayDetailView.swift */; };
+		42D634AD29733BDA00FC9D5B /* iMoneyPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D634AC29733BDA00FC9D5B /* iMoneyPetApp.swift */; };
+		42D634AF29733BDA00FC9D5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D634AE29733BDA00FC9D5B /* ContentView.swift */; };
+		42D634B129733BDC00FC9D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D634B029733BDC00FC9D5B /* Assets.xcassets */; };
+		42D634B429733BDC00FC9D5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D634B329733BDC00FC9D5B /* Preview Assets.xcassets */; };
+		42D634DF29733CFB00FC9D5B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D634BC29733CFA00FC9D5B /* NetworkManager.swift */; };
+		42D634F329733CFB00FC9D5B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D634D729733CFA00FC9D5B /* DataController.swift */; };
+		42D634F729733CFB00FC9D5B /* CategoriesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D634DE29733CFB00FC9D5B /* CategoriesEnum.swift */; };
+		42D634F929733D4F00FC9D5B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D634F829733D4F00FC9D5B /* ViewModel.swift */; };
+		42D634FC29733E0700FC9D5B /* SM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42D634FA29733E0700FC9D5B /* SM.xcdatamodeld */; };
+		42D634FE297340B100FC9D5B /* AddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D634FD297340B100FC9D5B /* AddingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420E907029B2906D00FE9F49 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		420E907129B2906D00FE9F49 /* ViewWithTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithTabBar.swift; sourceTree = "<group>"; };
+		420E907229B2906D00FE9F49 /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		420E907329B2906D00FE9F49 /* BarChartRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartRow.swift; sourceTree = "<group>"; };
+		420E907429B2906D00FE9F49 /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		420E907529B2906D00FE9F49 /* BarChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartCell.swift; sourceTree = "<group>"; };
+		4247E3CE297342A70072F304 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		4247E3D0297342CF0072F304 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4247E3D6297347FF0072F304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4247E3D82973481B0072F304 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4281AE36297D49CF00C65A1B /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		4281AE38297D4A7900C65A1B /* SpendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendCell.swift; sourceTree = "<group>"; };
+		4281AE3A297D52BE00C65A1B /* TodayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayDetailView.swift; sourceTree = "<group>"; };
+		42D634A929733BDA00FC9D5B /* iMoneyPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMoneyPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D634AC29733BDA00FC9D5B /* iMoneyPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoneyPetApp.swift; sourceTree = "<group>"; };
+		42D634AE29733BDA00FC9D5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42D634B029733BDC00FC9D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42D634B329733BDC00FC9D5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42D634BC29733CFA00FC9D5B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		42D634D729733CFA00FC9D5B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		42D634DE29733CFB00FC9D5B /* CategoriesEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesEnum.swift; sourceTree = "<group>"; };
+		42D634F829733D4F00FC9D5B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		42D634FB29733E0700FC9D5B /* SM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SM.xcdatamodel; sourceTree = "<group>"; };
+		42D634FD297340B100FC9D5B /* AddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D634A629733BDA00FC9D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420E906F29B2906D00FE9F49 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				420E907029B2906D00FE9F49 /* Helpers.swift */,
+				420E907129B2906D00FE9F49 /* ViewWithTabBar.swift */,
+				420E907229B2906D00FE9F49 /* BarChartView.swift */,
+				420E907329B2906D00FE9F49 /* BarChartRow.swift */,
+				420E907429B2906D00FE9F49 /* LabelView.swift */,
+				420E907529B2906D00FE9F49 /* BarChartCell.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		4247E3D22973476C0072F304 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				4247E3D7297347FF0072F304 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		42D634A029733BDA00FC9D5B = {
+			isa = PBXGroup;
+			children = (
+				42D634AB29733BDA00FC9D5B /* iMoneyPet */,
+				42D634AA29733BDA00FC9D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42D634AA29733BDA00FC9D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D634A929733BDA00FC9D5B /* iMoneyPet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D634AB29733BDA00FC9D5B /* iMoneyPet */ = {
+			isa = PBXGroup;
+			children = (
+				42D634AC29733BDA00FC9D5B /* iMoneyPetApp.swift */,
+				42D634AE29733BDA00FC9D5B /* ContentView.swift */,
+				4247E3D0297342CF0072F304 /* MainView.swift */,
+				4247E3CE297342A70072F304 /* Detail.swift */,
+				42D634FD297340B100FC9D5B /* AddingView.swift */,
+				4281AE36297D49CF00C65A1B /* TodayView.swift */,
+				4281AE38297D4A7900C65A1B /* SpendCell.swift */,
+				42D634F829733D4F00FC9D5B /* ViewModel.swift */,
+				42D634B029733BDC00FC9D5B /* Assets.xcassets */,
+				42D634BA29733CFA00FC9D5B /* Model */,
+				42D634B229733BDC00FC9D5B /* Preview Content */,
+			);
+			path = iMoneyPet;
+			sourceTree = "<group>";
+		};
+		42D634B229733BDC00FC9D5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42D634B329733BDC00FC9D5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42D634BA29733CFA00FC9D5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				420E906F29B2906D00FE9F49 /* Chart */,
+				4281AE3A297D52BE00C65A1B /* TodayDetailView.swift */,
+				4247E3D22973476C0072F304 /* Localization */,
+				42D634BB29733CFA00FC9D5B /* Networking */,
+				42D634D529733CFA00FC9D5B /* SpendingData */,
+				42D634DD29733CFB00FC9D5B /* Categories */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42D634BB29733CFA00FC9D5B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				42D634BC29733CFA00FC9D5B /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		42D634D529733CFA00FC9D5B /* SpendingData */ = {
+			isa = PBXGroup;
+			children = (
+				42D634D729733CFA00FC9D5B /* DataController.swift */,
+				42D634FA29733E0700FC9D5B /* SM.xcdatamodeld */,
+			);
+			path = SpendingData;
+			sourceTree = "<group>";
+		};
+		42D634DD29733CFB00FC9D5B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				42D634DE29733CFB00FC9D5B /* CategoriesEnum.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D634A829733BDA00FC9D5B /* iMoneyPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D634B729733BDC00FC9D5B /* Build configuration list for PBXNativeTarget "iMoneyPet" */;
+			buildPhases = (
+				42D634A529733BDA00FC9D5B /* Sources */,
+				42D634A629733BDA00FC9D5B /* Frameworks */,
+				42D634A729733BDA00FC9D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMoneyPet;
+			productName = iMoneyPet;
+			productReference = 42D634A929733BDA00FC9D5B /* iMoneyPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D634A129733BDA00FC9D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					42D634A829733BDA00FC9D5B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 42D634A429733BDA00FC9D5B /* Build configuration list for PBXProject "iMoneyPet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 42D634A029733BDA00FC9D5B;
+			productRefGroup = 42D634AA29733BDA00FC9D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D634A829733BDA00FC9D5B /* iMoneyPet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D634A729733BDA00FC9D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D634B429733BDC00FC9D5B /* Preview Assets.xcassets in Resources */,
+				4247E3D5297347FF0072F304 /* Localizable.strings in Resources */,
+				42D634B129733BDC00FC9D5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D634A529733BDA00FC9D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D634DF29733CFB00FC9D5B /* NetworkManager.swift in Sources */,
+				420E907929B2906D00FE9F49 /* BarChartRow.swift in Sources */,
+				420E907629B2906D00FE9F49 /* Helpers.swift in Sources */,
+				420E907B29B2906D00FE9F49 /* BarChartCell.swift in Sources */,
+				42D634F929733D4F00FC9D5B /* ViewModel.swift in Sources */,
+				42D634F729733CFB00FC9D5B /* CategoriesEnum.swift in Sources */,
+				42D634F329733CFB00FC9D5B /* DataController.swift in Sources */,
+				4281AE37297D49CF00C65A1B /* TodayView.swift in Sources */,
+				420E907729B2906D00FE9F49 /* ViewWithTabBar.swift in Sources */,
+				420E907829B2906D00FE9F49 /* BarChartView.swift in Sources */,
+				420E907A29B2906D00FE9F49 /* LabelView.swift in Sources */,
+				42D634AF29733BDA00FC9D5B /* ContentView.swift in Sources */,
+				4247E3CF297342A70072F304 /* Detail.swift in Sources */,
+				42D634FE297340B100FC9D5B /* AddingView.swift in Sources */,
+				4281AE3B297D52BE00C65A1B /* TodayDetailView.swift in Sources */,
+				42D634AD29733BDA00FC9D5B /* iMoneyPetApp.swift in Sources */,
+				4281AE39297D4A7900C65A1B /* SpendCell.swift in Sources */,
+				4247E3D1297342CF0072F304 /* MainView.swift in Sources */,
+				42D634FC29733E0700FC9D5B /* SM.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4247E3D7297347FF0072F304 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4247E3D6297347FF0072F304 /* en */,
+				4247E3D82973481B0072F304 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D634B529733BDC00FC9D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42D634B629733BDC00FC9D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42D634B829733BDC00FC9D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"iMoneyPet/Preview Content\"";
+				DEVELOPMENT_TEAM = 79AQJWGJQM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iMoney;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = kupriyanov.iMoneyy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42D634B929733BDC00FC9D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"iMoneyPet/Preview Content\"";
+				DEVELOPMENT_TEAM = 79AQJWGJQM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iMoney;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = kupriyanov.iMoneyy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D634A429733BDA00FC9D5B /* Build configuration list for PBXProject "iMoneyPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D634B529733BDC00FC9D5B /* Debug */,
+				42D634B629733BDC00FC9D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D634B729733BDC00FC9D5B /* Build configuration list for PBXNativeTarget "iMoneyPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D634B829733BDC00FC9D5B /* Debug */,
+				42D634B929733BDC00FC9D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42D634FA29733E0700FC9D5B /* SM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42D634FB29733E0700FC9D5B /* SM.xcdatamodel */,
+			);
+			currentVersion = 42D634FB29733E0700FC9D5B /* SM.xcdatamodel */;
+			path = SM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42D634A129733BDA00FC9D5B /* Project object */;
+}
